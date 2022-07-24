@@ -1,0 +1,28 @@
+{
+  "name": "delivery-food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "watch": "webpack --watch --mode=development",
+    "start": "webpack serve --open --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBor83/Delivey-Food.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexBor83/Delivey-Food/issues"
+  },
+  "homepage": "https://github.com/AlexBor83/Delivey-Food#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "ts-loader": "^9.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
